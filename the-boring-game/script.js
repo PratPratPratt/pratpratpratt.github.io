@@ -1,9 +1,13 @@
+let counter = 0;
+
 function chooser() {
     let x_random=Math.random();
     let y_random=Math.random();
 
     let x;
     let y;
+
+    counter = counter+1;
 
     if (x_random >= 0 || x_random >= 0.1){
         x=0
@@ -38,5 +42,8 @@ function chooser() {
     }
 
     document.getElementById("ball").style.gridRowStart=x;
-    document.getElementById("ball").style.gridColumnStart=y ;
+    document.getElementById("ball").style.gridColumnStart=y;
+
+    document.getElementById("2").innerHTML= "The Boring Game\
+    Counter:" + counter.toString();
 }
