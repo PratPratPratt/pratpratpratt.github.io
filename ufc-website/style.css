@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    min-height: 10vh;
+    min-width: 100vh;
+    display: flex;
+    color: #FFED6B;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background: #03218F;
+    font-family: "Montserrat";
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+#navbar li{
+    max-height: 2vh;
+    padding: 50px;
+}
+
+.container{
+    min-height: 90vh;
+}
+
+.footer {
+    margin-top: 4%;
+    margin-left: -0.4%;
+    background-color:#1F7A8F;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 500px;
+  }
+.footer {
+    margin-top: 4%;
+    margin-left: -0.4%;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 500px;
+  }
+.wraper {
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+    display: grid;
+    grid-template-areas:'colmn2 colmn1';
+    grid-column-gap: 10%;
+  }
+.logo2 {
+    padding-top: 20px;
+  }
+.foot {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 25%;
+  }
+.foot a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  }
+.foot li {
+    margin: 20px 0;
+  }
+.icon-nav {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+  }
+.icon-nav a {
+    color: white;
+    text-decoration:none;
+  }
+.icon-nav li , .icon-nav2 li{
+    float: left;
+    padding: 10px;
+  }
+.icon-nav2 {
+    list-style-type: none;
+  }
+.foot-note {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-indent: 10px;
+  }
+.foot-head {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+  }
+.foot-copyright {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 35%;
+  }
+  .mail {
+    display: inline-block;
+    color: #fff;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    width: 300px;
+    border: 0.3px solid grey;
+    padding: 10px 53px;
+    background-image: url('envelope.jpg');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+  }
+  .mail:focus {
+    outline: none;
+  }
+  .colmn2 {
+    grid-area: colmn2;
+  }
+  .colmn1 {
+    grid-area: colmn1;
+  }
+  .header {
+    text-align: center;
+    margin: 3% 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #000;
+  }
+  .about-p{
+    padding: 0 10%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #838b8b;
+  }
+  #Portable , #heading {
+    text-align: center;
+  
+  }
+  .foot-sub {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+  }
